@@ -12,14 +12,14 @@ int main()
     getline(cin,LastName);
     cout<<"Your Last Name:"<<LastName<<endl;
 
-    FullName= FirstName + LastName;
+    FullName=FirstName + '' + LastName;
 
     cout<<"Your Full Name:"<<FullName<<endl;
 
-    getline(cin, FavoriteMeal);
+    gtline(cin,FavoriteMeal)
     cout<<"Your Favorite Meal:"<<FavoriteMeal<<endl;
 
-    getline(cin,FavoriteMovie);
+    getline(cin,FavoriteMovie)
     cout<<"Your Favorite Movie:"<<FavoriteMovie;
 
 
